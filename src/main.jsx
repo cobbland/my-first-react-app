@@ -6,10 +6,10 @@ import { createRoot } from 'react-dom/client'
 // import { Count } from './Count.jsx'
 // import HowMany from './HowMany.jsx'
 // import TestTitle from './TestTitle.jsx'
-import App from './lesson.jsx'
+import App from './learn.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <App type="alert" onClick={() => console.log('Clicked!')}/>
   </StrictMode>,
 )
